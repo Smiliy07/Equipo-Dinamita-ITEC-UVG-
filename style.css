@@ -1,0 +1,328 @@
+/* =========================================
+   ESTILOS GENERALES
+   ========================================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #111111;
+    color: #d0d0c0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+
+/* =========================================
+   ENCABEZADO
+   ========================================= */
+
+.encabezado {
+    height: 140px;
+    background-color: #202119;
+    border: 1px solid #3d3d35;
+    display: flex;
+    align-items: center;
+    padding: 8px 20px;
+    position: relative;
+}
+
+
+/* LOGO */
+
+.logo {
+    width: 80px;
+    height: 125px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo img {
+    width: 75px;
+    max-height: 120px;
+    object-fit: contain;
+}
+
+
+/* TITULOS DEL ENCABEZADO */
+
+.titulo {
+    margin-left: 12px;
+    align-self: flex-start;
+    padding-top: 15px;
+}
+
+.titulo h1 {
+    color: #8c8c54;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 27px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+}
+
+.titulo h2 {
+    color: #a5a05a;
+    font-size: 18px;
+    font-weight: normal;
+    margin-bottom: 5px;
+}
+
+.titulo p {
+    color: #7c7b6c;
+    font-size: 13px;
+}
+
+
+/* =========================================
+   MENÚ SUPERIOR
+   ========================================= */
+
+.menu {
+    position: absolute;
+    right: 20px;
+    bottom: 7px;
+    background-color: #171814;
+    padding: 8px 12px;
+    border-top: 1px solid #38382f;
+}
+
+.menu a {
+    color: #d0d0c5;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.menu a:hover {
+    color: #aaa85f;
+}
+
+.menu span {
+    color: #aaa89b;
+    margin: 0 7px;
+}
+
+
+/* =========================================
+   CONTENEDOR PRINCIPAL
+   ========================================= */
+
+.contenedor {
+    width: 98%;
+    margin: 7px auto;
+    display: grid;
+    grid-template-columns: 1fr 255px;
+    gap: 20px;
+}
+
+
+/* =========================================
+   CONTENIDO PRINCIPAL
+   ========================================= */
+
+.contenido {
+    min-height: 500px;
+    border: 1px solid #4a4a42;
+    padding: 15px;
+    background-color: #111111;
+}
+
+.contenido h2 {
+    color: #aaa75b;
+    font-size: 23px;
+    font-weight: normal;
+    margin-bottom: 15px;
+}
+
+.contenido h3 {
+    color: #a7a45a;
+    font-size: 17px;
+    font-weight: normal;
+    margin: 13px 0 10px;
+}
+
+.contenido p {
+    color: #bdbdb5;
+    line-height: 1.55;
+    margin-bottom: 12px;
+    font-size: 13px;
+}
+
+.contenido a {
+    color: #a5a263;
+    text-decoration: underline;
+}
+
+.contenido a:hover {
+    color: #d0cf88;
+}
+
+
+/* =========================================
+   LOGO RESEARCH4LIFE
+   ========================================= */
+
+.research {
+    text-align: center;
+    margin: 30px 0;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 42px;
+    letter-spacing: 2px;
+}
+
+.research span {
+    color: #269b73;
+}
+
+.research b {
+    color: #c78c24;
+    font-weight: normal;
+}
+
+.research i {
+    color: #268d72;
+    font-style: normal;
+}
+
+
+/* =========================================
+   NOTA
+   ========================================= */
+
+.nota {
+    color: #999990 !important;
+    font-size: 12px !important;
+    margin-top: 20px;
+}
+
+
+/* =========================================
+   BARRA LATERAL
+   ========================================= */
+
+.lateral {
+    background-color: #202119;
+    min-height: 500px;
+}
+
+
+/* TITULOS DE LA BARRA LATERAL */
+
+.titulo-lateral,
+.bloque h3 {
+    background-color: #313226;
+    color: #aaa75b;
+    font-size: 13px;
+    font-weight: normal;
+    padding: 6px 8px;
+    border-bottom: 1px solid #48483c;
+    margin: 0;
+}
+
+
+/* =========================================
+   USUARIO
+   ========================================= */
+
+.usuario {
+    padding: 10px;
+    border-bottom: 1px solid #3e3e37;
+}
+
+.usuario strong {
+    color: #a7a45a;
+    font-size: 11px;
+}
+
+.usuario p {
+    color: #c2c2b8;
+    margin: 7px 0;
+}
+
+.usuario button {
+    background-color: #34352a;
+    border: 1px solid #535442;
+    color: #d0d0c3;
+    padding: 4px 8px;
+    font-size: 10px;
+    cursor: pointer;
+}
+
+.usuario button:hover {
+    background-color: #4a4b38;
+}
+
+
+/* =========================================
+   BLOQUES LATERALES
+   ========================================= */
+
+.bloque {
+    border-bottom: 1px solid #414138;
+    padding-bottom: 12px;
+}
+
+.bloque h4 {
+    color: #d0d0c6;
+    font-size: 17px;
+    font-weight: normal;
+    margin: 5px 10px 8px;
+}
+
+.bloque p {
+    color: #aaa9a0;
+    font-size: 11px;
+    line-height: 1.4;
+    margin: 7px 10px;
+}
+
+
+/* =========================================
+   ICONOS
+   ========================================= */
+
+.icono {
+    font-size: 38px;
+    margin: 12px 10px 4px;
+}
+
+
+/* =========================================
+   RESPONSIVE
+   ========================================= */
+
+@media (max-width: 800px) {
+
+    .encabezado {
+        height: auto;
+        min-height: 150px;
+        flex-wrap: wrap;
+    }
+
+    .titulo h1 {
+        font-size: 20px;
+    }
+
+    .titulo h2 {
+        font-size: 15px;
+    }
+
+    .menu {
+        position: static;
+        width: 100%;
+        text-align: right;
+        margin-top: 5px;
+    }
+
+    .contenedor {
+        grid-template-columns: 1fr;
+    }
+
+    .lateral {
+        width: 100%;
+    }
+}
