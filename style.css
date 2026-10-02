@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* =========================================
    ESTILOS GENERALES
    ========================================= */
@@ -324,5 +325,458 @@ body {
 
     .lateral {
         width: 100%;
+=======
+/* =========================================================
+   ESTILO GENERAL
+   ========================================================= */
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100%;
+}
+
+body {
+    background: #272727;
+    color: #b7b7b7;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 16px;
+}
+
+
+/* =========================================================
+   TARJETA PRINCIPAL
+   ========================================================= */
+
+body > .tarjeta {
+    width: calc(100% - 10px);
+    max-width: 1265px;
+
+    margin: 18px 5px 0 5px;
+    padding: 0;
+
+    background: #111111;
+    border: 5px solid #111111;
+}
+
+
+/* =========================================================
+   ENCABEZADO
+   ========================================================= */
+
+body > .tarjeta > .tarjeta:first-child {
+
+    width: 100%;
+    height: 121px;
+
+    margin: 0;
+    padding: 0;
+
+    position: relative;
+
+    background: #181a13;
+
+    border: 1px solid #555555;
+
+    text-align: left;
+}
+
+
+/* =========================================================
+   LOGO
+   ========================================================= */
+
+body > .tarjeta > .tarjeta:first-child img {
+
+    position: absolute;
+
+    left: 10px;
+    top: 6px;
+
+    width: 85px;
+    height: 112px;
+
+    object-fit: contain;
+
+    display: block;
+
+    z-index: 10;
+}
+
+
+/* =========================================================
+   NOMBRE DE LA UNIVERSIDAD
+   ========================================================= */
+
+body > .tarjeta > .tarjeta:first-child h1 {
+
+    margin: 5px 0 0 102px;
+    padding: 0;
+
+    color: #999d22;
+
+    font-family: "Times New Roman", Times, serif;
+
+    font-size: 29px;
+    line-height: 1.1;
+
+    font-weight: normal;
+
+    white-space: nowrap;
+}
+
+
+/* =========================================================
+   PORTAL DE SERVICIOS
+   ========================================================= */
+
+body > .tarjeta > .tarjeta:first-child h2 {
+
+    margin: 1px 0 0 102px;
+    padding: 0;
+
+    color: #999d22;
+
+    font-family: "Times New Roman", Times, serif;
+
+    font-size: 20px;
+    line-height: 1.1;
+
+    font-weight: bold;
+
+    white-space: nowrap;
+}
+
+
+/* =========================================================
+   DIRECCIÓN
+   ========================================================= */
+
+body > .tarjeta > .tarjeta:first-child h3 {
+
+    margin: 1px 0 0 102px;
+    padding: 0;
+
+    color: #999d22;
+
+    font-family: "Times New Roman", Times, serif;
+
+    font-size: 15px;
+    line-height: 1.1;
+
+    font-weight: normal;
+
+    white-space: nowrap;
+}
+
+
+/* =========================================================
+   TARJETA DE SERVICIOS
+   ========================================================= */
+
+body > .tarjeta > .tarjeta:nth-child(2) {
+
+    width: calc(100% - 10px);
+
+    height: 257px;
+
+    margin: 5px 5px 0 5px;
+    padding: 0;
+
+    background: #111111;
+
+    border: 1px solid #555555;
+
+    text-align: center;
+}
+
+
+/* =========================================================
+   TÍTULO "SERVICIOS PARA ESTUDIANTES"
+   ========================================================= */
+
+body > .tarjeta > .tarjeta:nth-child(2) > h1 {
+
+    margin: 21px 0 13px 0;
+    padding: 0;
+
+    color: #aaa52d;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    font-size: 24px;
+    line-height: 1;
+
+    font-weight: bold;
+}
+
+
+/* =========================================================
+   TEXTOS DE SERVICIOS
+   ========================================================= */
+
+body > .tarjeta > .tarjeta:nth-child(2) h2 {
+
+    margin: 0;
+    padding: 0;
+
+    color: #b7d0e9;
+
+    font-family: "Courier New", Courier, monospace;
+
+    font-size: 15px;
+    line-height: 1.15;
+
+    font-weight: normal;
+
+    text-align: center;
+}
+
+
+/* =========================================================
+   SEPARACIÓN ENTRE BLOQUES
+   ========================================================= */
+
+/* Primer bloque */
+
+body > .tarjeta > .tarjeta:nth-child(2) h2:nth-of-type(1) {
+    margin-top: 0;
+}
+
+
+/* Enlace de asignaciones */
+
+body > .tarjeta > .tarjeta:nth-child(2) h2:nth-of-type(2) {
+    margin-top: 0;
+}
+
+
+/* Horario */
+
+body > .tarjeta > .tarjeta:nth-child(2) h2:nth-of-type(3) {
+    margin-top: 0;
+}
+
+
+/* Segundo bloque */
+
+body > .tarjeta > .tarjeta:nth-child(2) h2:nth-of-type(4) {
+    margin-top: 32px;
+}
+
+
+/* Enlace marbete */
+
+body > .tarjeta > .tarjeta:nth-child(2) h2:nth-of-type(5) {
+    margin-top: 0;
+}
+
+
+/* Tercer bloque */
+
+body > .tarjeta > .tarjeta:nth-child(2) h2:nth-of-type(6) {
+    margin-top: 32px;
+}
+
+
+/* Enlace portal */
+
+body > .tarjeta > .tarjeta:nth-child(2) h2:nth-of-type(7) {
+    margin-top: 0;
+}
+
+
+/* =========================================================
+   ENLACES
+   ========================================================= */
+
+body > .tarjeta > .tarjeta:nth-child(2) a {
+
+    color: #d0b08a;
+
+    font-family: "Courier New", Courier, monospace;
+
+    font-size: 15px;
+
+    font-weight: normal;
+
+    text-decoration: underline;
+}
+
+
+/* Color al pasar el mouse */
+
+body > .tarjeta > .tarjeta:nth-child(2) a:hover {
+
+    color: #e0c49b;
+}
+
+
+/* =========================================================
+   PIE DE PÁGINA
+   ========================================================= */
+
+body > .tarjeta > .tarjeta:last-child {
+
+    width: calc(100% - 0px);
+
+    height: 55px;
+
+    margin: 5px 0 0 0;
+    padding: 5px 10px;
+
+    background: #29261f;
+
+    border: none;
+
+    text-align: center;
+
+    color: #999999;
+}
+
+
+/* =========================================================
+   TEXTO DEL PIE
+   ========================================================= */
+
+body > .tarjeta > .tarjeta:last-child h3 {
+
+    margin: 1px 0;
+    padding: 0;
+
+    color: #999999;
+
+    font-family: "Courier New", Courier, monospace;
+
+    font-size: 11px;
+    line-height: 1.2;
+
+    font-weight: normal;
+}
+
+
+/* =========================================================
+   IMÁGENES
+   ========================================================= */
+
+img {
+
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+
+/* =========================================================
+   TABLET
+   ========================================================= */
+
+@media (max-width: 700px) {
+
+    body > .tarjeta {
+        width: calc(100% - 10px);
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    body > .tarjeta > .tarjeta:first-child {
+        height: 110px;
+    }
+
+    body > .tarjeta > .tarjeta:first-child img {
+        width: 70px;
+        height: 92px;
+        left: 8px;
+        top: 8px;
+    }
+
+    body > .tarjeta > .tarjeta:first-child h1 {
+        margin-left: 85px;
+        font-size: 23px;
+    }
+
+    body > .tarjeta > .tarjeta:first-child h2 {
+        margin-left: 85px;
+        font-size: 17px;
+    }
+
+    body > .tarjeta > .tarjeta:first-child h3 {
+        margin-left: 85px;
+        font-size: 13px;
+    }
+
+    body > .tarjeta > .tarjeta:nth-child(2) {
+        height: auto;
+        min-height: 257px;
+    }
+}
+
+
+/* =========================================================
+   CELULAR
+   ========================================================= */
+
+@media (max-width: 450px) {
+
+    body > .tarjeta > .tarjeta:first-child {
+        height: 100px;
+    }
+
+    body > .tarjeta > .tarjeta:first-child img {
+        width: 58px;
+        height: 76px;
+        left: 6px;
+        top: 7px;
+    }
+
+    body > .tarjeta > .tarjeta:first-child h1 {
+        margin-left: 70px;
+        font-size: 17px;
+        white-space: normal;
+    }
+
+    body > .tarjeta > .tarjeta:first-child h2 {
+        margin-left: 70px;
+        font-size: 13px;
+        white-space: normal;
+    }
+
+    body > .tarjeta > .tarjeta:first-child h3 {
+        margin-left: 70px;
+        font-size: 10px;
+        white-space: normal;
+    }
+
+    body > .tarjeta > .tarjeta:nth-child(2) {
+        height: auto;
+        padding-bottom: 15px;
+    }
+
+    body > .tarjeta > .tarjeta:nth-child(2) > h1 {
+        font-size: 20px;
+    }
+
+    body > .tarjeta > .tarjeta:nth-child(2) h2 {
+        font-size: 12px;
+    }
+
+    body > .tarjeta > .tarjeta:nth-child(2) a {
+        font-size: 12px;
+    }
+
+    body > .tarjeta > .tarjeta:last-child {
+        height: auto;
+        min-height: 55px;
+    }
+
+    body > .tarjeta > .tarjeta:last-child h3 {
+        font-size: 9px;
+>>>>>>> main
     }
 }
