@@ -1,0 +1,86 @@
+body {
+    background: #111;
+    color: #aaa;
+    font-family: Arial;
+    margin: 5px;
+}
+
+header {
+    background: #222218;
+    border: 1px solid #777;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 10px;
+}
+
+header img {
+    width: 75px;
+    height: 100px;
+}
+
+header h1 {
+    color: #8b8840;
+    font-family: Georgia;
+    font-size: 23px;
+}
+
+header p {
+    color: #8b8840;
+}
+
+.principal {
+    display: grid;
+    grid-template-columns: 1fr 300px;
+    gap: 25px;
+    margin-top: 5px;
+}
+
+main {
+    border: 1px solid #777;
+    padding: 20px;
+}
+
+.pdf {
+    background: #333;
+    padding: 15px;
+    min-height: 500px;
+}
+
+.documento {
+    background: white;
+    color: #222;
+    padding: 30px;
+    min-height: 400px;
+}
+
+.importante {
+    border: 1px solid #333;
+    padding: 10px;
+    font-weight: bold;
+}
+
+aside {
+    background: #191914;
+    border: 1px solid #555;
+}
+
+aside h3 {
+    color: #8b8840;
+    padding: 10px;
+    border-bottom: 1px solid #555;
+}
+
+aside a {
+    display: block;
+    color: #777;
+    text-decoration: none;
+    padding: 8px;
+    border-bottom: 1px solid #444;
+}
+
+aside a:hover {
+    background: #333;
+    color: white;
+}
